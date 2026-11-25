@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0e0d0c" />
+    <meta
+      name="description"
+      content="Lyra is a fictional closed-back planar headphone. Kinetic is its launch site — a motion and WebGL study by Akhilendra Singh."
+    />
+    <meta name="author" content="Akhilendra Singh" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Lyra — The room disappears</title>
+    <script>
+      ;(function () {
+        try {
+          if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.documentElement.classList.add('motion')
+          }
+        } catch (e) {
+          /* matchMedia missing: leave motion off */
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
