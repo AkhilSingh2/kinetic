@@ -1,0 +1,27 @@
+:root {
+  --bg: #0e0d0c;
+  --bg-2: #171512;
+  --ivory: #f3ecdf;
+  --ivory-dim: #c9c1b3;
+  --muted: #8f887c;
+  --copper: #c47a4a;
+  --copper-2: #e0a078;
+  --line: rgba(243, 236, 223, 0.16);
+  --line-strong: rgba(243, 236, 223, 0.34);
+  --font-serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --font-sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --gutter: clamp(18px, 3.6vw, 72px);
+  --nav-h: 76px;
+  --step--1: 0.8125rem;
+  --step-0: 1.0625rem;
+  --step-1: clamp(1.15rem, 1rem + 0.5vw, 1.4rem);
+  --step-2: clamp(1.55rem, 1.15rem + 1.2vw, 2.2rem);
+  --step-3: clamp(2.1rem, 1.1rem + 2.8vw, 3.5rem);
+  --step-4: clamp(2.8rem, 0.8rem + 5.4vw, 6.2rem);
+  --step-5: clamp(3.2rem, 0.2rem + 7.6vw, 8.4rem);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.18, 1);
+  --measure: 40rem;
+  color-scheme: dark;
+}

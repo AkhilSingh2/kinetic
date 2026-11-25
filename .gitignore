@@ -1,0 +1,10 @@
+node_modules
+dist
+playwright-report
+test-results
+blob-report
+.DS_Store
+*.local
+.vercel
+.vite
+coverage
