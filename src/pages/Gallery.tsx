@@ -3,40 +3,41 @@ import { DistortMedia } from '../components/DistortMedia'
 import { PageHero } from '../components/PageHero'
 import { useIntro } from '../context/Intro'
 import { useReveals } from '../hooks/useReveals'
+import { asset } from '../lib/asset'
 
 const STUDIES = [
   {
-    src: '/gallery/ring.svg',
+    src: asset('/gallery/ring.svg'),
     title: 'The ring',
     meta: '01 / Macro',
     alt: 'Generative study of concentric rings, ivory on black with one copper circle.',
   },
   {
-    src: '/gallery/coil.svg',
+    src: asset('/gallery/coil.svg'),
     title: 'Voice coil',
     meta: '02 / Copper',
     alt: 'Generative copper spiral on a black field.',
   },
   {
-    src: '/gallery/grain.svg',
+    src: asset('/gallery/grain.svg'),
     title: '6061 grain',
     meta: '03 / Billet',
     alt: 'Generative drawing of brushed horizontal grain.',
   },
   {
-    src: '/gallery/leather.svg',
+    src: asset('/gallery/leather.svg'),
     title: 'Hide',
     meta: '04 / Contact',
     alt: 'Generative study of overlapping brown forms suggesting undyed leather.',
   },
   {
-    src: '/gallery/night.svg',
+    src: asset('/gallery/night.svg'),
     title: 'Unlit',
     meta: '05 / Night',
     alt: 'A dark field with a single copper ring and a small point of light.',
   },
   {
-    src: '/gallery/section.svg',
+    src: asset('/gallery/section.svg'),
     title: 'Labyrinth',
     meta: '06 / Section',
     alt: 'Line drawing of a headphone cup in section, with a copper seal.',

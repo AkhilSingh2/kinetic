@@ -7,6 +7,7 @@ import { useReducedMotion } from '../hooks/useMediaQuery'
 import { gsap, ScrollTrigger } from '../lib/gsap'
 import { openReserve } from '../lib/reserve'
 import { pose } from '../lib/pose'
+import { asset } from '../lib/asset'
 
 const HeroCanvas = lazy(() => import('../components/hero/HeroCanvas'))
 
@@ -34,28 +35,28 @@ const MATERIALS = [
     name: '6061',
     label: 'Aluminum',
     copy: 'Milled from a single billet. The swarf outweighs the band.',
-    image: '/gallery/grain.svg',
+    image: asset('/gallery/grain.svg'),
   },
   {
     index: '02',
     name: 'C110',
     label: 'Copper',
     copy: 'The voice coil, and the only warm color on the object.',
-    image: '/gallery/coil.svg',
+    image: asset('/gallery/coil.svg'),
   },
   {
     index: '03',
     name: 'Hide',
     label: 'Leather',
     copy: 'Vegetable-tanned, undyed, meant to darken where you touch it.',
-    image: '/gallery/leather.svg',
+    image: asset('/gallery/leather.svg'),
   },
   {
     index: '04',
     name: 'Air',
     label: 'Labyrinth',
     copy: 'Seven turns between the driver and the room.',
-    image: '/gallery/section.svg',
+    image: asset('/gallery/section.svg'),
   },
 ]
 
@@ -231,7 +232,7 @@ export function Product() {
 
       <section className="emerge" aria-label="The seal">
         <div className="emerge-frame">
-          <img src="/gallery/night.svg" alt="" />
+          <img src={asset('/gallery/night.svg')} alt="" />
         </div>
         <div className="emerge-copy">
           <p className="kicker">04 — The seal</p>

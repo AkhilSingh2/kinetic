@@ -16,7 +16,7 @@ import { Story } from './pages/Story'
 export default function App() {
   return (
     <IntroProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || undefined}>
         <SmoothScroll>
           <TransitionProvider>
             <div className="grain" aria-hidden="true" />

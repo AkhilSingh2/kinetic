@@ -2,6 +2,8 @@
 
 **Lyra** is a closed-back planar headphone that does not exist. This is its launch site: a scroll-driven product film you can open in a browser, built by [Akhilendra Singh](https://github.com/AkhilSingh2) as proof of motion, WebGL, and interface craft.
 
+**Live demo:** [akhilsingh2.github.io/kinetic](https://akhilsingh2.github.io/kinetic/)
+
 ![Scroll from the hero into the first chapter, the headphone turning as the line changes.](docs/media/hero.gif)
 
 ![Lyra hero. A milled headphone floats in warm black, with the line “The room disappears.”](docs/media/hero-desktop.png)
